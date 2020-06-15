@@ -1,0 +1,12 @@
+[submodule "lib/MakerMatty_TimeTrack"]
+	path = lib/MakerMatty_TimeTrack
+	url = https://github.com/immakermatty/MakerMatty_TimeTrack.git
+[submodule "lib/MakerMatty_NeoAni"]
+	path = lib/MakerMatty_NeoAni
+	url = https://github.com/immakermatty/MakerMatty_NeoAni
+[submodule "lib/MakerMatty_MPU6050_Motion"]
+	path = lib/MakerMatty_MPU6050_Motion
+	url = https://github.com/immakermatty/MakerMatty_MPU6050_Motion.git
+[submodule "lib/MakerMatty_Curves"]
+	path = lib/MakerMatty_Curves
+	url = https://github.com/immakermatty/MakerMatty_Curves.git
