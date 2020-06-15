@@ -10,3 +10,6 @@
 [submodule "lib/MakerMatty_Curves"]
 	path = lib/MakerMatty_Curves
 	url = https://github.com/immakermatty/MakerMatty_Curves.git
+[submodule "lib/FastLED"]
+	path = lib/FastLED
+	url = https://github.com/FastLED/FastLED
