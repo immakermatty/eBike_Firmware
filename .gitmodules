@@ -16,3 +16,6 @@
 [submodule "lib/MakerMatty_Button"]
 	path = lib/MakerMatty_Button
 	url = https://github.com/immakermatty/MakerMatty_Button.git
+[submodule "lib/MakerMatty_TemplateMath"]
+	path = lib/MakerMatty_TemplateMath
+	url = https://github.com/immakermatty/MakerMatty_TemplateMath.git
