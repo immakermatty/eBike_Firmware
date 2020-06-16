@@ -13,3 +13,6 @@
 [submodule "lib/FastLED"]
 	path = lib/FastLED
 	url = https://github.com/FastLED/FastLED
+[submodule "lib/MakerMatty_Button"]
+	path = lib/MakerMatty_Button
+	url = https://github.com/immakermatty/MakerMatty_Button.git
