@@ -1,9 +1,6 @@
 [submodule "lib/MakerMatty_TimeTrack"]
 	path = lib/MakerMatty_TimeTrack
 	url = https://github.com/immakermatty/MakerMatty_TimeTrack.git
-[submodule "lib/MakerMatty_NeoAni"]
-	path = lib/MakerMatty_NeoAni
-	url = https://github.com/immakermatty/MakerMatty_NeoAni
 [submodule "lib/MakerMatty_MPU6050_Motion"]
 	path = lib/MakerMatty_MPU6050_Motion
 	url = https://github.com/immakermatty/MakerMatty_MPU6050_Motion.git
@@ -19,3 +16,6 @@
 [submodule "lib/MakerMatty_AccessPointWebUpdate"]
 	path = lib/MakerMatty_AccessPointWebUpdate
 	url = https://github.com/immakermatty/MakerMatty_AccessPointWebUpdate.git
+[submodule "lib/MakerMatty_NeoEffects"]
+	path = lib/MakerMatty_NeoEffects
+	url = https://github.com/immakermatty/MakerMatty_NeoEffects.git
