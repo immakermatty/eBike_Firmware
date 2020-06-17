@@ -1,3 +1,8 @@
+/** 
+ * Author	: @makermatty (maker.matejsuchanek.cz)
+ * Date		: 15-6-2020
+ */
+
 #ifndef _EBIKE_MAIN_h
 #define _EBIKE_MAIN_h
 
