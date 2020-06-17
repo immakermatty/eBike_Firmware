@@ -10,14 +10,14 @@
 
 #define FASTLED_INTERNAL
 #include <FastLED.h>
-#include "MakerMatty_NeoAni.h"
+#include "MakerMatty_NeoEffects.h"
 
 namespace ebike {
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-class TurnSignalEffect : public npa::Effect {
-    void onAt(const time_ms time, const time_ms duration, npa::Frame* const frame) override
+class TurnSignalEffect : public npe::Effect {
+    void onAt(const time_ms time, const time_ms duration, npe::Frame* const frame) override
     {
         // TO-DO
     }
@@ -33,8 +33,8 @@ private:
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-class BlinkEffect : public npa::Effect {
-    void onAt(const time_ms time, const time_ms duration, npa::Frame* const frame) override
+class BlinkEffect : public npe::Effect {
+    void onAt(const time_ms time, const time_ms duration, npe::Frame* const frame) override
     {
         bool state = (time * 2) / duration;
 

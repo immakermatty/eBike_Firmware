@@ -25,7 +25,7 @@ const int32_t blinkingCycle = 1000;
 const int32_t rainbowCycle = 2000;
 
 ebike::BlinkEffect blinkEffect(blinkingCycle, CRGB::Orange, CRGB::Black);
-npa::RainbowEffect rainbowEffect(rainbowCycle);
+npe::RainbowEffect rainbowEffect(rainbowCycle);
 
 void setup()
 {

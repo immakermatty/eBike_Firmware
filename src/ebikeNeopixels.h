@@ -10,7 +10,7 @@
 
 #include "ebikeControl.h"
 #include <Arduino.h>
-#include <MakerMatty_NeoAni.h>
+#include <MakerMatty_NeoEffects.h>
 
 namespace ebike {
 
@@ -41,18 +41,18 @@ private:
     EbikeLeds ledsBuffer;
 
 public:
-    npa::Neopixels tail;
-    npa::Neopixels signalRL;
-    npa::Neopixels signalRR;
-    npa::Neopixels signalFL;
-    npa::Neopixels signalFR;
-    npa::Neopixels dashboard;
+    npe::Neopixels tail;
+    npe::Neopixels signalRL;
+    npe::Neopixels signalRR;
+    npe::Neopixels signalFL;
+    npe::Neopixels signalFR;
+    npe::Neopixels dashboard;
 
-    npa::Neopixels signals;
-    npa::Neopixels all;
+    npe::Neopixels signals;
+    npe::Neopixels all;
 
-    npa::Neopixels tailLeft;
-    npa::Neopixels tailRight;
+    npe::Neopixels tailLeft;
+    npe::Neopixels tailRight;
 };
 }
 
